@@ -1,3 +1,4 @@
+'use strict';
 $('a[href*=#]').bind("click", function(event) {
   event.preventDefault();
   var ziel = $(this).attr("href");
